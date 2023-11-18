@@ -3,6 +3,8 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
+import emailjs from "@emailjs/browser";
+
 const validationSchema = Yup.object({
   name: Yup.string().required("Name is required"),
   email: Yup.string().email("Invalid email").required("Email is required"),
@@ -19,12 +21,26 @@ const MyForm = ({}) => {
 
   const handleSubmit = (values, { resetForm }) => {
     // Handle form submission here (e.g., send data to server)
+    const serviceID = "service_jg7q711";
+    const templateID = "template_26msu4i";
+    const userID = "GV-ckDolXb83wb-WY";
+
+    emailjs.send(serviceID, templateID, values, userID).then(
+      (response) => {
+        console.log("Email sent successfully!", response);
+        resetForm();
+      },
+      (error) => {
+        console.error("Email send error:", error);
+      }
+    );
+
     console.log(values);
     resetForm();
   };
 
   return (
-    <div className="h-full w-full bg-gray-50 pb-5">
+    <div id="myform" className="h-full w-full bg-gray-50 pb-5">
       <div>
         <h1 className="text-center text-2xl text-shadow-lg pt-10 pb-5">
           Contact us

@@ -5,14 +5,6 @@ import Link from "next/link";
 
 import { useState } from "react";
 
-import { FaFacebook } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
-import { FaTelegramPlane } from "react-icons/fa";
-
-import MyForm from "./MyForm";
-
 const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -43,14 +35,16 @@ const Hero = () => {
             sourced directly from the rich and diverse landscapes of Ethiopia.
           </p>
         </div>
-        <div className=" relative mt-12 mb-5 group">
-          <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur-lg group-hover:opacity-75 transition duration-200 animate-pulse"></div>
-          <button className=" relative px-8 py-4 bg-slate-800 rounded-lg leading-none flex items-center ">
-            <span className="text-white group-hover:text-slate-500 transition duration-200">
-              See all Gemstones &rarr;
-            </span>
-          </button>
-        </div>
+        <Link href="/#ourproducts">
+          <div className=" relative mt-12 mb-5 group">
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur-lg group-hover:opacity-75 transition duration-200 animate-pulse"></div>
+            <button className=" relative px-8 py-4 bg-slate-800 rounded-lg leading-none flex items-center ">
+              <span className="text-white group-hover:text-slate-500 transition duration-200">
+                See all Gemstones &rarr;
+              </span>
+            </button>
+          </div>
+        </Link>
       </div>
     </div>
   );

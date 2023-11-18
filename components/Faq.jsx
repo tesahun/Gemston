@@ -28,7 +28,7 @@ const Asked = () => {
   ]);
 
   return (
-    <div className="h-full w-full bg-slate-500 flex flex-col items-center justify-center overflow-hidden">
+    <div id="faq" className="h-full w-full bg-slate-500 flex flex-col items-center justify-center overflow-hidden">
       <div className="mt-10">
         <h1 className="text-center">Frequently Asked Questions</h1>
       </div>

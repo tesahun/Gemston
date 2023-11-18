@@ -10,7 +10,7 @@ const WhatOfer = () => {
   });
 
   return (
-    <div className="bg-slate-400 h-full pb-8 overflow-hidden">
+    <div id="whatofer" className="bg-slate-400 h-full pb-8 overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-center pt-11 ">
         <div
           className="pr-10 flex flex-col justify-center"

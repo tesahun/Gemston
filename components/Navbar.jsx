@@ -13,11 +13,11 @@ const Navbar = () => {
   return (
     <div className="fixed left-0 top-0 w-full z-50">
       <nav className="">
-        <div className="max-w-7xl px-1 sm:px-6 lg:px-8">
+        <div className="w-full px-1 sm:px-6 lg:px-8 bg-slate-500/50">
           <div className="flex items-center justify-between h-16 ">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <div className="bg-logoo-bg bg-cover bg-center p-7 ml-2 text-white text-lg font-semibold z-40"></div>
+                <div className="bg-logoo-bg bg-cover bg-center p-7 ml-2 z-40"></div>
               </div>
             </div>
             <div className="hidden md:block">
@@ -26,25 +26,45 @@ const Navbar = () => {
                   Home
                 </Link>
                 <Link
-                  href="/"
+                  href="/#ourproducts"
                   rel="preload"
-                  as="style"
+                  
                   className="navbarLi"
                 >
-                  Our-service
+                  Products
                 </Link>
                 <Link
-                  href="/"
+                  href="/#myform"
+                  rel="preload"
+                  
+                  className="navbarLi"
+                >
+                  Contact-us
+                </Link>
+                <Link
+                  href="/#faq"
+                  rel="preload"
+                  
+                  className="navbarLi"
+                >
+                  FAQ
+                </Link>
+                <Link
+                  href="/#whatofer"
+                  rel="preload"
+                  
+                  className="navbarLi"
+                >
+                  About-us
+                </Link>
+                <Link
+                  href="#footer"
                   rel="preload"
                   as="style"
                   className="navbarLi"
                 >
-                  About
+                  Get in Touch
                 </Link>
-                <Link href="/" rel="preload" as="style" className="navbarLi">
-                  FAQ
-                </Link>
-                
               </div>
             </div>
             <div className="md:hidden z-30">
@@ -67,16 +87,21 @@ const Navbar = () => {
               <Link href="/" className="navbarMo">
                 Home
               </Link>
-              <Link href="/destiny" className="navbarMo">
-                Our-service
+              <Link href="/#ourproducts" className="navbarMo">
+                Products
               </Link>
-              <Link href="/about" className="navbarMo">
-                About
+              <Link href="/#myform" className="navbarMo">
+                Contact-us
               </Link>
-              <Link href="#" className="navbarMo">
+              <Link href="/#faq" className="navbarMo">
                 faq
               </Link>
-              
+              <Link href="/#whatofer" className="navbarMo">
+                About-us
+              </Link>
+              <Link href="/#footer" className="navbarMo">
+                Get in Touch
+              </Link>
             </div>
           </div>
         )}

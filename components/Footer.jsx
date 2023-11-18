@@ -8,30 +8,33 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-800 w-full max-h-max text-slate-50">
+    <div id="footer" className="bg-black w-full max-h-max text-slate-50">
       <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-center lg:gap-10">
         <div>
           <h1 className="text-2xl text-gray-200 text-center pt-4 font-semibold">
             Get in Touch
           </h1>
           <div className="flex justify-center gap-[50px] mt-10">
-            <FaFacebook
-              size={25}
-              style={{ color: "#0000FF" }}
-              className="icon"
-            />
+            <a href="https://www.facebook.com/profile.php?id=100076457315908">
+              <FaFacebook
+                size={25}
+                style={{ color: "#0000FF" }}
+                className="icon"
+              />
+            </a>
 
             <BsWhatsapp
               size={25}
               style={{ color: "#008000" }}
               className="icon"
             />
-
-            <FaTelegramPlane
-              size={25}
-              style={{ color: "#4682B4" }}
-              className="icon"
-            />
+            <a href="">
+              <FaTelegramPlane
+                size={25}
+                style={{ color: "#4682B4" }}
+                className="icon"
+              />
+            </a>
           </div>
 
           <div className="flex flex-col items-center mt-5">

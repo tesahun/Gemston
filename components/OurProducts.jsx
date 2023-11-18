@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const OurProducts = () => {
   return (
-    <div className="w-full h-full bg-slate-700/50 overflow-hidden">
+    <div
+      id="ourproducts"
+      className="w-full h-full bg-slate-700/50 overflow-hidden"
+    >
       <div className="pt-10 pb-5">
         <div className="mb-10 ">
           <h1 className="text-center text-white font-semibold text-2xl uppercase">
@@ -14,7 +19,24 @@ const OurProducts = () => {
 
         <div className="flex justify-center">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-            <div className="bg-emrerald-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-hexa-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
+              <Link href="/#myform">
+                <div className="flex justify-end pt-2">
+                  <h1 className="text-white flex justify-center rounded-lg bg-yellow-500 w-20 h-5 text-sm text-shadow-lg animate-pulse">
+                    In stock
+                  </h1>
+                </div>
+              </Link>
+              <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
+                onsdaleite (Hexagonal) iamond
+              </h1>
+              <p className="text-white text-center bg-gray-600/70 w-full font-normal mt-10 pb-1 container mx-auto rounded-lg">
+                Rare hexagonal diamond, harder than regular diamonds, formed
+                under extreme impact conditions like meteorite collisions.
+              </p>
+            </div>
+
+            <div className="bg-emrerald-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 EMERALD
               </h1>
@@ -24,7 +46,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-opal-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-opal-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 opal
               </h1>
@@ -34,7 +56,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-sapph-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-sapph-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 sapphire
               </h1>
@@ -44,7 +66,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-aquam-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-aquam-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 Aquamarine
               </h1>
@@ -54,7 +76,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-ruby-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-ruby-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 Rubies
               </h1>
@@ -64,7 +86,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-topaz-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-topaz-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 Topaz
               </h1>
@@ -74,7 +96,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-tourma-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-tourma-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 Tourmaline
               </h1>
@@ -84,7 +106,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-garnet-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg">
+            <div className="bg-garnet-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
                 garnet
               </h1>
@@ -94,7 +116,7 @@ const OurProducts = () => {
               </p>
             </div>
 
-            <div className="bg-peridot-bg bg-center bg-cover w-[330px] h-[200px] rounded-lg shadow-lg text-shadow-lg">
+            <div className="bg-peridot-bg bg-center bg-cover w-[330px] h-[210px] rounded-lg shadow-lg text-shadow-lg">
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase">
                 Peridot
               </h1>

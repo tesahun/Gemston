@@ -79,6 +79,7 @@ module.exports = {
         "tourma-bg": "url(../public/img/tourma.jpg)",
         "garnet-bg": "url(../public/img/garnet.jpg)",
         "peridot-bg": "url(../public/img/peridot.jpg)",
+        "hexa-bg": "url(../public/img/hexa.jpg)",
       },
 
       colors: {
