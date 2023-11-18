@@ -15,52 +15,45 @@ const Navbar = () => {
       <nav className="">
         <div className="w-full px-1 sm:px-6 lg:px-8 bg-slate-500/50">
           <div className="flex items-center justify-between h-16 ">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <div className="bg-logoo-bg bg-cover bg-center p-7 ml-2 z-40"></div>
+            <Link href="/" className="navbarLi">
+              <div className="flex items-center">
+                <div className="flex-shrink-0">
+                  <div className="bg-logoo-bg bg-cover bg-center p-7 ml-2 z-40"></div>
+                </div>
               </div>
-            </div>
+            </Link>
+            
             <div className="hidden md:block">
               <div className="ml-4 flex items-center space-x-4">
-                <Link href="/" rel="preload" as="style" className="navbarLi">
+                <Link href="/" className="navbarLi">
                   Home
                 </Link>
                 <Link
                   href="/#ourproducts"
-                  rel="preload"
-                  
                   className="navbarLi"
                 >
                   Products
                 </Link>
                 <Link
                   href="/#myform"
-                  rel="preload"
-                  
                   className="navbarLi"
                 >
                   Contact-us
                 </Link>
                 <Link
                   href="/#faq"
-                  rel="preload"
-                  
                   className="navbarLi"
                 >
                   FAQ
                 </Link>
                 <Link
                   href="/#whatofer"
-                  rel="preload"
-                  
                   className="navbarLi"
                 >
                   About-us
                 </Link>
                 <Link
                   href="#footer"
-                  rel="preload"
-                  as="style"
                   className="navbarLi"
                 >
                   Get in Touch
