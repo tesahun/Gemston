@@ -35,16 +35,18 @@ const Hero = () => {
             sourced directly from the rich and diverse landscapes of Ethiopia.
           </p>
         </div>
-        <Link href="/#ourproducts">
+        
           <div className=" relative mt-12 mb-5 group">
             <div className="absolute inset-0 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur-lg group-hover:opacity-75 transition duration-200 animate-pulse"></div>
-            <button className=" relative px-8 py-4 bg-slate-800 rounded-lg leading-none flex items-center ">
-              <span className="text-white group-hover:text-slate-500 transition duration-200">
-                See all Gemstones &rarr;
-              </span>
-            </button>
+            <Link href="/#ourproducts">
+               <button className=" relative px-8 py-4 bg-slate-800 rounded-lg leading-none flex items-center ">
+                 <span className="text-white group-hover:text-slate-500 transition duration-200">
+                   See all Gemstones &rarr;
+                 </span>
+               </button>
+            </Link>
           </div>
-        </Link>
+        
       </div>
     </div>
   );
