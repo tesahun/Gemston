@@ -28,7 +28,7 @@ const OurProducts = () => {
                 </div>
               </Link>
               <h1 className="text-white text-center text-xl font-semibold pt-3 uppercase text-shadow-lg">
-                onsdaleite (Hexagonal) iamond
+                onsdaleite (Hexagonal) Diamond
               </h1>
               <p className="text-white text-center bg-gray-600/70 w-full font-normal mt-10 pb-1 container mx-auto rounded-lg">
                 Rare hexagonal diamond, harder than regular diamonds, formed
