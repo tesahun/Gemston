@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="">
         <div className="w-full px-1 sm:px-6 lg:px-8 bg-slate-500/50">
           <div className="flex items-center justify-between h-16 ">
-            <Link href="/" className="navbarLi">
+            <Link href="/" rel="preload" className="navbarLi">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <div className="bg-logoo-bg bg-cover bg-center p-7 ml-2 z-40"></div>
