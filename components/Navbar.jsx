@@ -22,7 +22,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="ml-4 flex items-center space-x-4">
-                <Link href="/" rel="preload" as="style" className="navbarLi">
+                <Link href="/" className="navbarLi">
                   Home
                 </Link>
                 <Link href="/#ourproducts" rel="preload" className="navbarLi">
@@ -38,9 +38,8 @@ const Navbar = () => {
                   About-us
                 </Link>
                 <Link
-                  href="#footer"
-                  rel="preload"
-                  as="style"
+                  href="/#footer"
+                  
                   className="navbarLi"
                 >
                   Get in Touch
