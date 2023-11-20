@@ -25,16 +25,16 @@ const Navbar = () => {
                 <Link href="/" className="navbarLi">
                   Home
                 </Link>
-                <Link href="/#ourproducts" rel="preload" className="navbarLi">
+                <Link href="/#ourproducts" className="navbarLi">
                   Products
                 </Link>
-                <Link href="/#myform" rel="preload" className="navbarLi">
+                <Link href="/#myform" className="navbarLi">
                   Contact-us
                 </Link>
-                <Link href="/#faq" rel="preload" className="navbarLi">
+                <Link href="/#faq" className="navbarLi">
                   FAQ
                 </Link>
-                <Link href="/#whatofer" rel="preload" className="navbarLi">
+                <Link href="/#whatofer" className="navbarLi">
                   About-us
                 </Link>
                 <Link
