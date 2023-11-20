@@ -23,12 +23,15 @@ const Footer = () => {
               />
             </a>
 
-            <BsWhatsapp
-              size={25}
-              style={{ color: "#008000" }}
-              className="icon"
-            />
-            <a href="">
+            <a href="https://wa.me/qr/2V2XZ2HMFNYNB1">
+              <BsWhatsapp
+                size={25}
+                style={{ color: "#008000" }}
+                className="icon"
+              />
+            </a>
+
+            <a href="https://t.me/Tesfayet21">
               <FaTelegramPlane
                 size={25}
                 style={{ color: "#4682B4" }}
